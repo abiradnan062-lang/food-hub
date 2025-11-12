@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #fff8f0;
+}
+header {
+  text-align: center;
+}
+.menu, .cart, .ai-chef {
+  margin-top: 30px;
+}
+.item {
+  margin-bottom: 15px;
+}
+button {
+  margin-left: 10px;
+}
