@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abir's Flavor Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Abir's Flavor Hub</h1>
+    <p>Call us: +880-1234-567890</p>
+  </header>
+
+  <section class="menu">
+    <div class="item">
+      <h2>Fried Rice</h2>
+      <button onclick="addToCart('Fried Rice')">Add to Cart</button>
+    </div>
+    <div class="item">
+      <h2>Chicken Fry</h2>
+      <button onclick="addToCart('Chicken Fry')">Add to Cart</button>
+    </div>
+    <div class="item">
+      <h2>Burger</h2>
+      <button onclick="addToCart('Burger')">Add to Cart</button>
+    </div>
+  </section>
+
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cartList"></ul>
+    <button onclick="orderNow()">Order Now</button>
+  </section>
+
+  <section class="ai-chef">
+    <h2>Ask Our AI Chef</h2>
+    <input type="text" id="chefInput" placeholder="What should I eat today?">
+    <button onclick="talkToChef()">Ask</button>
+    <p id="chefResponse"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
